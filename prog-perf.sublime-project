@@ -5,10 +5,16 @@
 			"path": "."
 		},
 		{
-			"path": "./scss"
+			"path": "./assets/scss"
 		},
 		{
-			"path": "./js"
+			"path": "./assets/js"
+		},
+		{
+			"path": "./app/"
+		},
+		{
+			"path": "./views"
 		}
 	]
 }
