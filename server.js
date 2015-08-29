@@ -13,7 +13,7 @@ require("node-jsx").install();
 // Include static assets. Not advised for production
 app.use(express.static(path.join(__dirname, 'public')));
 // Set view path
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'app/views'));
 // set up ejs for templating. You can use whatever
 app.set('view engine', 'ejs');
 
@@ -28,4 +28,5 @@ app.get('*', function(req, res) {
 });
 
 app.listen(port);
+
 console.log('Server is Up and Running at Port : ' + port);
