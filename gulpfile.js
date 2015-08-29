@@ -53,11 +53,11 @@ gulp.task('deploy', function () {
 });
 
 gulp.task('js', function() {
-    gulp.src('assets/js/*.js')
+    gulp.src('app/main.js')
         .pipe($.uglify())
         .pipe($.size({ gzip: true, showFiles: true }))
-        .pipe($.concat('j.js'))
-        .pipe(gulp.dest('public/js'))
+        .pipe($.concat('main.js'))
+        .pipe(gulp.dest('public'))
         .pipe(reload({stream:true}));
 });
 
@@ -68,14 +68,14 @@ gulp.task('scss-lint', function() {
 });
 
 gulp.task('jshint', function() {
-    gulp.src('assets/js/*.js')
+    gulp.src('app/**/*.js')
         .pipe($.jshint())
         .pipe($.jshint.reporter('default'));
 });
 
 gulp.task('watch', function() {
   gulp.watch('assets/scss/**/*.scss', ['scss']);
-  gulp.watch('assets/js/*.js', ['jshint', 'js']);
+  gulp.watch('app/**/*.js', ['jshint', 'js']);
   gulp.watch('assets/img/*', ['imgmin']);
 });
 
@@ -91,7 +91,7 @@ gulp.task('imgmin', function () {
 
 gulp.task('browserify', function () {
 
-    gulp.src(['js/main.js'])
+    gulp.src(['app/main.js'])
         .pipe($.browserify({
             debug: true,
             transform: [ 'reactify' ]
@@ -114,6 +114,6 @@ gulp.task('critical', function () {
     });
 });
 
-gulp.task('build', ['js', 'imgmin', 'scss', 'browserify']);
+gulp.task('build', ['js', 'scss', 'imgmin', 'browserify']);
 
 gulp.task('default', ['browser-sync', 'js', 'imgmin', 'scss', 'watch']);

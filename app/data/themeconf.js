@@ -1,0 +1,64 @@
+var speakers = [
+		{
+			"name": "Jack Lenox",
+			"company": "Automattic", 
+			"title": "Building Themes with JavaScript and REST APIs",
+			"description": "This is a workshop for developers/designers who have some familiarity with jQuery or JavaScript, but would like to level up their skills and learn to make more compelling user experiences with their designs. <br>Starting with the basics of what a REST API is, and what JavaScript allows us to do with it, we will move through a series of sessions of how we can make use of popular frameworks and libraries, include them in our workflow and practically apply them to what we make. <br>The workshop follows the format of a spoken introduction to each session, followed by a practical challenge, followed by a discussion of the solution. <br>By the end of the workshop, the group will have put together a WordPress theme that uses the forthcoming WP REST API."
+		},
+		{
+			"name": "Lance Willett",
+			"company": "WordPress", 
+			"title": "A Journey of Theme Craftmanship",
+			"description": "If you find that theming is hard, it’s because it is hard. <br>Making themes is a craft, and a craft is a discipline and tradition that places a high value on skill. To acquire, grow, and eventually transmit that skill is the journey of a master theme craftsperson. You’ll reach your goals, both personal and in business, by keeping the rules and values of the craft in mind. <br>What are those values? Theme craftsmanship means you’ll: <br>Know yourself: be aware of where you are on the journey to mastery. <br>Know how to learn: when to play and be creative and when to be pragmatic, productive, and ship. <br>Know the community: find a support network of teachers, mentors, and peers to rub elbows with. <br>Know your passion: when you care deeply about the work you do, and the people you do it for — you’ll find success. <br>In this talk you’ll hear about my journey of theme craftsmanship — the ups, the downs, the unexpected results — and how I’ve now become an apprentice again in a new field. A journey of adventure and learning where my skills have expanded beyond anything I’d expected — not just the technical path from web designer and developer to “front-end expert” and WordPress themer — but also writing, speaking, and leading."
+		},
+		{
+			"name": "Caroline Moore",
+			"company": "Automattic", 
+			"title": "Chatting with a Themer",
+			"description": "Caroline Moore is one of the most prolific creators of themes in the WordPress world. She creates beautiful themes that top the charts of annual best themes and bring users delight. Her work is consistently strong, showing personality and a creative flair. In this chat, we'll get to know a bit about her and how she came to be the themer she is now. Caroline has an amazing work ethic and rate and in this chat we'll learn how she does this, along with some insight into her workflows. In getting to know a themer, you'll get some valuable insights and be able to bring them into your work."
+		},
+		{
+			"name": "Adam Onishi",
+			"company": "dxw", 
+			"title": "Best Viewed With...",
+			"description": "Are we doomed to see history repeat itself? With the amount of client-side MVC frameworks and the upcoming implementation of the ES6 syntax, will we soon be seeing a repeat of the “browser wars”. Will more websites only work in a select number of browsers with the capabilities to run their code?<br>Are we breaking the inherent robustness of the web? The main facets that effect everything on the web: performance, accessibility, interaction. What are these new tools serving most?<br>My aim is to take a look at the current state of the web and whether progressive enhancement is still plausible. Instead looking at what new tools can offer. Do some of these new frameworks start to redress the balance and serve all facets of the web.<br>I’ll be covering:<br> What progressive enhancement is and whether it is still important What new JavaScript frameworks are offering The broader picture of progressive enhancement and what that means for performance and accessibility An introduction to service worker and what that means to progressive enhancement and performance."
+		},
+		{
+			"name": "Chris Hutchinson",
+			"company": "The Times & Sunday Times", 
+			"title": "The new way to theme, using the WordPress REST API and AngularJS",
+			"description": "The familiarity of WordPress makes it a powerful ally in the newsroom, particularly when quickly innovating new ideas and projects, but the theme API can often make it difficult or clunky to work with at speed. Combining the flexibility of Advanced Custom Fields with the WordPress REST API, I'll show how this new way of using WordPress is not only incredibly flexible, but also a delight to use with frontend frameworks such as AngularJS. I'll show a few examples of how we are using it to create new projects at The Times and Sunday Times, and what it means for designers and developers in the next 12 months."
+		},
+		{
+			"name": "Davide Casali",
+			"company": "Automattic", 
+			"title": "The Six Elements of Focus to Improve Your Craft",
+			"description": "Focus is something often overlooked because seems intuitive what it means. Sometimes we wish we could be less distracted, some other time we wonder why the project didn't reach the objective we had in mind. Focus plays a relevant role in all these situations.<br>In this talk we are going to see six different kinds of focus, revolving around goals, users, attention and inner calm, from the highest, more outward level, to the lowest, more personal level.<br>Transforming each one of these six focus elements in activities in your daily craft will help you, your team and your clients to be more effective and achieve a better work / life balance."
+		},
+		{
+			"name": "Tammie Lister",
+			"company": "WordPress", 
+			"title": "Thinking in Patterns",
+			"description": "Humans think in patterns. Language is broken down into patterns. Design is a language. When we start thinking in patterns, we start being able to make sense of our design process. Patterns make sense to us. I’ll show how patterns make sense to us. How patterns create logical, optimised, sensible workflows."
+		},
+		{
+			"name": "Noel Tock",
+			"company": "Human Made", 
+			"title": "The Beauty and the Beast",
+			"description": "Coding websites used to be beautiful and straightforward. What were once simple elements have become very complex (to accomodate for responsive, differenct devices, browsers, etc). Writing pure HTML & CSS once gave us comfort, whilst today's landscape only provides fragments of familiarity. In his talk, Noel will explore the increasing complexity and how we're forced to pick our battles, and ultimately specialise in new roles."
+		},
+		{
+			"name": "James Vincent",
+			"company": "Vincent & Bell", 
+			"title": "Planning essentials in design and photography",
+			"description": "An oft overlooked aspect of the creative process, we all plan to a certain extent even if we aren’t fully aware of it, and proper planning will help you deliver better results. I’ll be covering photography, branding, and other aspects of design, with a couple of case studies to help illustrate the points in more detail."
+		},
+		{
+			"name": "Jack Lenox",
+			"company": "Automattic", 
+			"title": "Predictive Design",
+			"description": "Web designers and developers are now fully au fait with responsive design, adaptive design and a host of other trends that have massively improved the experience of web users at large. We also have a host of analytical tools that tell us what our users get up to. We know the common paths that the majority of our users will follow, and yet we don't prepare anything ahead of the user's requests for content.<br>Well now we can. We have some great browser features such as localStorage which enjoy very broad browser support. With this, the big CMSs like Drupal and WordPress give us REST APIs to fetch content.<br>I will show some compelling examples of how we can get commonly requested content ready for the user, and literally reduce page load times to almost zero."
+		}
+	];
+
+module.exports.speakers = speakers;
