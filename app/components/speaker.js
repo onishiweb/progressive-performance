@@ -6,7 +6,7 @@ var data = require('../data/themeconf.js').speakers;
 var ReactApp = React.createClass({
 
       componentDidMount: function () {
-        console.log(data);
+        // console.log(data);
         // console.log(this.props);
       },
       render: function () {

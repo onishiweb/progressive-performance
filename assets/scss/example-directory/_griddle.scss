@@ -7,11 +7,13 @@
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-html {
-  font-size: 62.5%;
-}
+
 body {
-  font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  // font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  font-family: 'opensans_regular', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
   background: #f5f5f5;
   color: #444;
 	height: 9000px;
@@ -186,10 +188,6 @@ header{
     color: #FFF;
     padding: 10px 0px 10px 0px;
     border-bottom: 5px solid #E76C3C;
-}
-
-h1, h2, h3, h4, h5, small {
-    font-family: 'Oxygen', sans-serif;
 }
 
 dd{

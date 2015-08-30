@@ -75,7 +75,7 @@ gulp.task('jshint', function() {
 
 gulp.task('watch', function() {
   gulp.watch('assets/scss/**/*.scss', ['scss']);
-  gulp.watch('app/**/*.js', ['jshint', 'js']);
+  gulp.watch('app/**/*.js', ['jshint', 'js', 'browserify']);
   gulp.watch('assets/img/*', ['imgmin']);
 });
 

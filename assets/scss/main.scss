@@ -1,1 +1,12 @@
-@import 'example-directory/import-me';
+$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// @import 'example-directory/fonts';
+
+body {
+	font-family: 'opensans_regular', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.5;
+}
