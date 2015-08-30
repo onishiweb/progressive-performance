@@ -1,19 +1,12 @@
 /** @jsx React.DOM */
 
 var React = require('react/addons');
-
-/* create factory with griddle component */
-// var Griddle = React.createFactory(require('griddle-react'));
-
 var data = require('../data/themeconf.js').speakers;
-var columnMeta = require('../data/columnMeta.js').columnMeta;
-var resultsPerPage = 200;
 
 var ReactApp = React.createClass({
 
       componentDidMount: function () {
         console.log(data);
-
       },
       render: function () {
         var items = data.map(function (item) {
