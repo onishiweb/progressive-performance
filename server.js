@@ -4,7 +4,7 @@
 var express = require('express'),
 path = require('path'),
 app = express(),
-port = 4444,
+port = 8000,
 bodyParser = require('body-parser');
 
 // Make sure to include the JSX transpiler
