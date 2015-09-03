@@ -17,9 +17,14 @@ Clone the git repo - git clone git://github.com/onishiweb/progressive-performanc
 
 Run `npm install` inside the project directory to install dependencies.
 
+You will also require a few extra things to be installed and working globally on your system.
+
+- [Gulp](http://gulpjs.com/)
+- [PhantomJS](https://github.com/ariya/phantomjs)
+
 ### Building
 
-The project uses [Gulp](http://gulpjs.com/) as a build tool, based on Una's [Gulp starter environment](https://github.com/una/gulp-starter-env) with 3 main tasks:
+The project uses Gulp as a build tool, based on Una's [Gulp starter environment](https://github.com/una/gulp-starter-env) with 3 main tasks:
 
 - `gulp critical` use to generate critical path CSS which will be output to `public/critical.css` by default.
 - `gulp build` to run a one-time build of JavaScript, Sass, and image minification
